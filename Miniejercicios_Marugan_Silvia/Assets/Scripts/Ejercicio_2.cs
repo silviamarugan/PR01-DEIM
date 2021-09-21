@@ -6,30 +6,27 @@ public class Ejercicio_2 : MonoBehaviour
 {
 
 
-    int num;
   
+    int random = 0;
+    [SerializeField] int numElegido = 57;
 
     // Start is called before the first frame update
     void Start()
     {
+
+        while (random != numElegido) 
+        {
+            random = Random.Range(0, 100);
+            print(random);
+        }
       
+        
 
-
-    }
+        }
 
     // Update is called once per frame
     void Update()
-    {
-        print(num = 0);
-        num++;
-        if (num < 1000)
-        {
-            print(num);
-        }
-        else if (num == 1000)
-        {
-            print("Fin del contador");
-        }
+    { 
       
     }
 }
