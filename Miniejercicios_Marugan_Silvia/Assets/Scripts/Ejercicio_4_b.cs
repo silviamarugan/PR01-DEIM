@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ejercicio_4_b : MonoBehaviour
 {
-    [SerializeField] Vector3 playerPos = new Vector3(0f,0.40f,-23f);
+     Vector3 playerPos = new Vector3(0f,0.40f,-23f);
      float speed = 10f;
     
 
